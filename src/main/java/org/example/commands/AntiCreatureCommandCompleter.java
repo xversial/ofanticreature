@@ -15,7 +15,7 @@
 /*    */ 
 /*    */   
 /*    */   public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
-/* 18 */     if (sender.isOp() || sender.hasPermission(OFAntiCreature.PERMISSION)) {
+/* 18 */     if (!sender.isOp() && !sender.hasPermission(OFAntiCreature.PERMISSION)) {
 /* 19 */       return this.emptyList;
 /*    */     }
 /*    */     
