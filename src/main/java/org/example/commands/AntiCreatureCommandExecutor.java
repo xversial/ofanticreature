@@ -18,7 +18,7 @@
 /* 18 */     if (args.length == 1 && args[0].equals("reload")) {
 /* 19 */       OFAntiCreature.getInstance().reloadConfig();
 /* 20 */       CreatureManager.load();
-/* 21 */       sender.sendMessage("" + ChatColor.GREEN + "Reload complete!");
+/* 21 */       sender.sendMessage("" + ChatColor.GREEN + "Reload complete [custom version]");
 /*    */ 
 /*    */     
 /*    */     }
