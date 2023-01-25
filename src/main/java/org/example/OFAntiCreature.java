@@ -24,7 +24,7 @@
 /* 24 */     getServer().getPluginManager().registerEvents((Listener)new CreatureListener(), (Plugin)this);
 /* 25 */     getCommand("anticreature").setExecutor((CommandExecutor)new AntiCreatureCommandExecutor());
 /* 26 */     getCommand("anticreature").setTabCompleter((TabCompleter)new AntiCreatureCommandCompleter());
-/* 27 */     getLogger().log(Level.FINE, "OFAntiCreature has loaded!");
+/* 27 */     getLogger().log(Level.FINE, "OFAntiCreature has loaded (custom version)");
 /*    */   }
 /*    */ 
 /*    */ 
